@@ -31,17 +31,18 @@
 git clone https://github.com/yourusername/Telegram-Currency-Bot.git
 cd Telegram-Currency-Bot
 ```
-```bash
 2. **Установите зависимости**
+```bash
 pip install -r requirements.txt
 ```
-```bash
+
 3. **Настройте бота**
+```bash
 # Откройте файл config.py и замените значение BOT_TOKEN
 BOT_TOKEN = "ВАШ_ТОКЕН_БОТА_ЗДЕСЬ"
 ```
-```bash
 4. **Запустите бота**
+```bash
 в консоли python main.py
 ```
 📖 Использование

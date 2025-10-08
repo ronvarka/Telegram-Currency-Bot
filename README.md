@@ -98,17 +98,24 @@ README.md              # Документация
 ```
 Установка для разработки
 # Клонирование репозитория
+```bash
 git clone https://github.com/ronvarka/Telegram-Currency-Bot.git
 cd Telegram-Currency-Bot
-
+```
 # Создание виртуального окружения (рекомендуется)
+```bash
 python -m venv venv
+```
+```bash
 source venv/bin/activate  # Linux/Mac
+```
+```bash
 # venv\Scripts\activate   # Windows
-
+```
 # Установка зависимостей
+```bash
 pip install -r requirements.txt
-
+```
 Запуск в режиме установки
 python main.py
 

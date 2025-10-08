@@ -29,6 +29,8 @@
 1. **Клонируйте репозиторий**
 ```bash
 git clone https://github.com/yourusername/Telegram-Currency-Bot.git
+```
+```bash
 cd Telegram-Currency-Bot
 ```
 2. **Установите зависимости**
@@ -102,6 +104,8 @@ README.md              # Документация
 # Клонирование репозитория
 ```bash
 git clone https://github.com/ronvarka/Telegram-Currency-Bot.git
+```
+```bash
 cd Telegram-Currency-Bot
 ```
 # Создание виртуального окружения (рекомендуется)
@@ -112,7 +116,7 @@ python -m venv venv
 source venv/bin/activate  # Linux/Mac
 ```
 ```bash
-# venv\Scripts\activate   # Windows
+venv\Scripts\activate   # Windows
 ```
 # Установка зависимостей
 ```bash

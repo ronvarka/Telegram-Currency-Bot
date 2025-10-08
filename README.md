@@ -28,7 +28,7 @@
 
 1. **Клонируйте репозиторий**
 ```bash
-git clone https://github.com/yourusername/Telegram-Currency-Bot.git
+git clone https://github.com/ronvarka/Telegram-Currency-Bot.git
 ```
 ```bash
 cd Telegram-Currency-Bot

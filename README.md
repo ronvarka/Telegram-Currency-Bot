@@ -77,22 +77,22 @@ BOT_TOKEN = "ВАШ_ТОКЕН_БОТА_ЗДЕСЬ"
     Валидация - проверка пользовательского ввода перед обработкой
 
 Telegram-Currency-Bot/
-├── handlers/                 # Обработчики Telegram команд
-│   ├── __init__.py          # Делает папку Python пакетом
-│   ├── base_commands.py     # Базовые команды (/start, /help)
-│   └── currency_command.py  # Команды для работы с валютами
-├── services/                # Бизнес-логика и работа с API
-│   ├── __init__.py          # Делает папку Python пакетом
-│   └── currency_service.py  # Сервис валют, кэширование, парсинг
-├── images/                  # Скриншоты работы бота
-│   ├── bot-preview-1.png
-│   ├── bot-preview-2.png
-│   └── bot-preview-3.png
-├── config.py               # Конфигурация приложения
-├── main.py                 # Точка входа, инициализация бота
-├── requirements.txt        # Зависимости Python
-├── LICENSE                 # Лицензия MIT
-└── README.md              # Документация
+handlers/                 # Обработчики Telegram команд
+    __init__.py          # Делает папку Python пакетом
+    base_commands.py     # Базовые команды (/start, /help)
+    currency_command.py  # Команды для работы с валютами
+services/                # Бизнес-логика и работа с API
+    __init__.py          # Делает папку Python пакетом
+    currency_service.py  # Сервис валют, кэширование, парсинг
+images/                  # Скриншоты работы бота
+    bot-preview-1.png
+    bot-preview-2.png
+    bot-preview-3.png
+config.py               # Конфигурация приложения
+main.py                 # Точка входа, инициализация бота
+requirements.txt        # Зависимости Python
+LICENSE                 # Лицензия MIT
+README.md              # Документация
 
 Установка для разработки
 # Клонирование репозитория
